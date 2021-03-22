@@ -1,13 +1,15 @@
 # Landing Page Project
 
-## Table of Contents
+## Development Strategy
 
-* [Instructions](#instructions)
+First things first, I started by linking my app.js to the index.html
 
-## Instructions
+Secondly, I did build out my HTML with more than 3 sections. Additional sections were added to the HTML document in order to test the performance.
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+Third, A navigation menu is automatically built based on the number of sections the landing page contains using javascript.
 
-To get started, open `js/app.js` and start building out the app's functionality
+Also, There is a functionality to distinguish the section in view which display it with black background. An active state was added to the navigation items when a section is in the viewport.
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+Moreover, the project includes a smooth scroll to sections when using the navigation menu .
+
+Finally, the code was refactored more than once for optimization and clean performance.
