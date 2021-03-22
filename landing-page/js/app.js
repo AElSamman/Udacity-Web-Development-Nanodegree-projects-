@@ -52,7 +52,7 @@ function createNavBarMenuItem(section) {
 function viewport() {
     sectionsList.forEach(section => {
         const rect = section.getBoundingClientRect();
-        const isInViewport = rect.top >= 0 && rect.left >= 0 && rect.bottom <= (viewportHeight) && rect.right <= (viewportWidth);
+        const isInViewport = rect.top >= -200 && rect.top <= 500;
             if(isInViewport){
                 section.classList.add('your-active-class');
                 section.style.cssText = "background-color: black;"
